@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-ene-2015, 15:41:28
+    Author     : 
+*/
+#formFantasma3{
+    position: fixed; 
+    width: 100%;
+    height: 100%;  
+    margin: 0px;
+    display: none;
+    
+    
+}
+
+   #formFantasma1{
+  
+    margin: 0px;
+    display: none;
+    
+    
+}
+    #formFantasma{
+  
+    margin: 0px;
+    display: none;
+    
+    
+}
+#tranparente {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: #848484;
+    margin: 0px;
+    
+    
+}
+*{
+    margin: 0px;
+}
+#formMovi{
+    width: 300px;
+    height: 100px;
+    margin-left: 6px;
+    background-color: white;
+    
+    
+}
+
+#conFormu{
+    width: 335px;
+    height: 124px;
+   
+   
+    
+}
+#cierreVentana{
+    
+    position: absolute;
+    margin-top: -20px;
+    left :300px;
+}
+#bloqueada{
+    opacity: 0.5;
+     
+}

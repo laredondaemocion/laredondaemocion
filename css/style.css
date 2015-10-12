@@ -1,0 +1,376 @@
+/*****************/
+/*******Body******/
+/*****************/
+
+body {
+  font-family: 'Lobster Two', cursive;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-color: green;
+  font-weight: bold;
+  background-image: url('../img/background.jpg');
+  background-size: 176%;
+  height: 100%; 
+}
+.container {
+  min-height: 100%;
+  margin-bottom: -180px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 67.5px;
+  }
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.container:after,
+.container-fluid:after,
+
+/*****************/
+/******Panel******/
+/*****************/
+.panel {
+  
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-fondo{
+    background-color: #F5F5F5;
+}
+.panel-body {
+  padding: 15px;
+}
+.texto{
+    color: #6685A3;
+    text-align: center;
+}
+.tabla{
+    color: #006699;
+    text-align: center;
+    background-color: #FFFFCC;
+}
+.texto-claro{
+    color: #99CCFF;
+    text-align: center;
+}
+.texto-error{
+    color: #FF0000;
+    text-align: center;
+    background-color: #FFCC99;
+}
+.texto-exito{
+    color: green; 
+    background-color: #ffffcc;
+    text-align: center;
+}
+
+/****************/
+/*Menu Principal*/
+/****************/
+/* Header*/
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  background-color: black;
+}
+
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: black;
+}
+
+.icon-size
+{
+  font-size: 87px;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+    background-color: black;
+  }
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: transparent;
+}
+
+/*******************/
+/***Ventana*Modal***/
+/*******************/
+.incompleto{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.ventana2{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.ventana3{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.ventana4{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.exito{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.error{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(../img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+.mensaje{
+    color: #585858;
+    text-align: center;
+    
+    width: 300px;
+    padding: 25px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -175px;
+    margin-top: -175px;
+}
+
+#cosa{
+  background-color: green;
+  width: 90%;
+  opacity: 0.7;
+  height: 100%;
+  position: fixed;
+  margin-left: 5%;
+  z-index: -1;
+}
+
+/*VENTANAS O PESTAÑAS*/
+
+#ventana { 
+  padding: 0px;
+  background: none; 
+  border-width: 0px; 
+  border-color: green; 
+} 
+#ventana .ui-tabs-nav { 
+  background: transparent; 
+  border-width: 0px 0px 1px 0px; 
+  -moz-border-radius: 0px; 
+  -webkit-border-radius: 0px; 
+  border-radius: 0px; 
+  border-color: green;
+} 
+#ventana .ui-tabs-panel { 
+  margin: 0em 0.2em 0.2em 0.2em; 
+  border-color: green;
+  color: white;
+  background-color: rgba(0, 141, 0, 0.7);
+}
+
+#ventana .ui-tabs-nav li {
+  float: left;
+  list-style-type: none;
+  background-color: white; 
+  margin: 0 0.5em 0 0;
+  padding: 0.25em 1em;
+  border-color: green;
+}
+#ventana .ui-tabs-nav a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: green; 
+}
+
+/* MAPA */
+
+#mapa{
+
+  width: 400px;
+  height: 500px;
+  float:left;
+  background: green;
+}
+#mapa_index{
+
+  width: 450px;
+  height: 400px;
+  float:left;
+  background: green;
+}
+#infor{
+
+  width: 400px;
+  height: 400px;
+  float:left;
+}
+
+/* A href*/
+
+a {
+  color: white;
+}
+a:hover {color: white;}
+a:active {color: white;}
+a:focus {border: 1px solid white;}
+a:focus:hover {color: white;}
+  
+/* FOOter*/
+
+footer {
+
+  height: 180px;
+  position: relative;
+  padding: 0px;
+  background-color: black;
+}
+
+footer a, footer a:hover {
+  color: #fff;
+  font-weight: 400;
+}
+
+footer h3 {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: #ddd;
+  font-weight: 200;
+}
+
+.clearfooter {
+   height: 250px;
+   clear: both;
+}
+
+#fileLoader
+{
+    display:none;
+}
