@@ -25,6 +25,7 @@
 			window.location.href='perfil_recinto.php?id_recinto=$_POST[recinto]';
 			</script>";
 		}
+                echo "hola";
 	}
 
 
